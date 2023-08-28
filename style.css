@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}     
+
+nav{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(28, 28, 89);
+
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+
+.link{
+    text-decoration: none;
+    color:white;
+}
+
+.tag:hover{
+    color: rgb(159, 159, 226);
+    font-size: 1.02rem;
+}
+
+
+.name {
+    font-size: 2rem;
+}
+
+.Left{
+    font-size: 1.5rem;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 0;
+}
+
+.firstsection > div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 3rem;
+}
+
+.leftsection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+
+.rightsection img {
+    border: 4px solid  rgb(159, 159, 240) ;
+    border-radius: 100%;
+    width: 80%;
+    margin: 50px 0;
+}
+.text-purple{
+    color: rgb(160, 98, 217);
+}
+
+.text-gray{
+    color: gray;
+}
+
+#element {
+    color: rgb(160, 98, 217);
+}
+
+main hr{
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 0;
+    color: #9c97f1;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.leftsection1  img {
+    height: 400px;
+    width: 400px;
+    width: 80%;
+    margin: 50px 0;
+}
+
+
+.rightsection1{
+    text-align:justify;
+    font-size: 1.6rem;
+    
+}
+
+.secondsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+    height: 80vh;
+}
+
+.secondsection > div {
+    width: 40%;
+}
+
+.thirdsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+
+.thirdsection h1 {
+    font-size: 1.9rem;
+}
+
+.thirdsection .box-line{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.thirdsection .vertical {
+    height: 93px;
+    width: 0.5px;
+    background-color: white;
+    margin: 0 120px;
+}
+
+.img-top{
+    width: 25px;
+    position: relative;
+    top: -30px;
+    left: -11px;
+}
+
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 14px;
+}
+
+.vertical-text{
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 12px;
+}
+
+footer {
+    background-color: #0e0e1a;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-between;
+}
+
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+
+footer ul li{
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+.footer-second {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-second a {
+    margin: 0 23px;
+    list-style: none;
+}
+
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
+
+.projectsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0;
+    height: 60vh;
+}
+
+.projectsection > div {
+    width: 40%;
+}
+
+
+.left1{
+    text-align:justify;
+    font-size: 1.6rem;
+}
+
+.right1 img {
+    height: 347px;
+    width: 400px;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.left2 img {
+    height: 347px;
+    width: 400px;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.right2{
+    text-align:justify;
+    font-size: 1.6rem;
+}
